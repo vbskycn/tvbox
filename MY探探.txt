@@ -1,0 +1,166 @@
+{
+ "spider": "https://ghp.ci/https://raw.githubusercontent.com/vbskycn/tvbox/main/jar/MY探探.jar",
+  "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
+  "sites": [
+
+
+
+   {"key": "csp_appys_影盒","name": "影探4K","type": 3,"api": "csp_AppYsV2","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://cmsyt.lyyytv.cn/api.php/app/"},     
+
+
+
+
+
+{
+            "key": "哔哩音乐",
+            "name": "🎧┃音乐鉴赏",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://www.lyyytv.cn/yt/json/哔哩音乐.json"
+        },
+
+ 
+ 
+    {
+            "key": "drpy_哔哩",
+            "name": "🅱┃B站合集",
+            "type": 3,
+            "api": "http://www.lyyytv.cn/yt/api/drpy2.min.js",
+            "playerType": 1,
+            "ext": "http://www.lyyytv.cn/yt/js/B站.js"
+        },
+
+   
+{
+            "key": "csp_FirstAid",
+            "name": "🚑┃急救教学",
+            "type": 3,
+            "api": "csp_FirstAid",
+            "searchable": 0,
+            "quickSearch": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 3.8
+            },
+            "gridview": "0-0-4.1"
+        },
+
+
+
+
+
+
+
+
+
+ {
+            "key": "csp_BookTing",
+            "name": "📚┃有声小说",
+            "type": 3,
+            "playerType": "2",
+            "api": "csp_BookTing",
+            "searchable": 0,
+            "ext": "https://m.ting275.com",
+            "style": {
+                "type": "rect",
+                "ratio": 1.333
+            }
+        },
+  
+  
+   {
+            "key": "少儿",
+            "name": "📚┃少儿教育",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "ext": "http://www.lyyytv.cn/yt/json/少儿教育.json"
+        },
+   
+   
+   {
+            "key": "小学",
+            "name": "📚┃小学课堂",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "ext": "http://www.lyyytv.cn/yt/json/小学课堂.json"
+        },
+        {
+            "key": "初中",
+            "name": "📚┃初中课堂",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "ext": "http://www.lyyytv.cn/yt/json/初中课堂.json"
+        },
+        
+        
+        
+        
+        {
+            "key": "高中",
+            "name": "📚┃高中课堂",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "ext": "http://www.lyyytv.cn/yt/json/高中课堂.json"
+        },
+   
+
+
+        {
+            "key": "看球",
+            "name": "⚾┃看球直播",
+            "type": 3,
+            "api": "csp_Kanqiu",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "gridview": 3,
+            "style": {
+                "type": "list"
+            }
+        },
+ 
+ 
+
+   
+  
+  
+ {      "key": "cc",      "name": "请勿相信视频中任何广告",      "type": 3,      "api": "csp_XPath",      "searchable": 0,      "quickSearch": 0,      "filterable": 0    },  
+ 
+ {      "key": "local3",      "name": "",      "type": 3,      "api": "",      "searchable": 0,      "quickSearch": 0,      "filterable": 0    }  ],  "parses": [    {      "name": "聚合1",      "type": 3,      "url": "Demo"    },    {      "name": "聚合0",      "type": 3,      "url": "Web"    },   
+ 
+ 
+  {   "name": "影探A",      "type": 1,      "url": "https://api.qljson.xyz/api/?key=74024e9a853180d12be21020d79d6e13&url=",      "ext": {        "flag": [          "qq",          "腾讯",          "qiyi",          "爱奇艺",          "奇艺",          "youku",          "优酷",          "sohu",          "搜狐",          "letv",          "乐视",          "mgtv",          "芒果",          "rx",          "ltnb",          "bilibili",          "1905",          "xigua"        ]      }    },  
+
+
+ {      "name": "影探B",      "type": 1,      "url": "https://api.qljson.xyz/api/?key=9a528eba496742f0ec708d51f48c33da&url=",      "ext": {        "flag": [          "qq",          "腾讯",          "企鹅",          "IQiYi",          "qiyi",          "爱奇艺",          "奇艺",          "youku",          "YouKu",          "优酷",          "sohu",          "SoHu",          "搜狐",          "letv",          "LeShi",          "乐视",          "imgo",          "mgtv",          "MangGuo",          "芒果",          "SLYS4k",          "BYGA",          "luanzi",          "AliS",          "dxzy",          "bilibili",          "QEYSS",          "xigua",          "西瓜视频",          "腾讯视频",          "奇艺视频",          "优酷视频",          "芒果视频",          "乐视视频"        ]      }    }  ],  "rules": [    {      "host": "*",      "rule": [        "default.365yg.com"      ]    },    {      "host": "dyxs20.com",      "rule": [        ".m3u8"      ]    },    {      "host": "www.agemys.cc",      "rule": [        "cdn-tos",        "obj/tos-cn"      ]    },    {      "host": "www.sharenice.net",      "rule": [        "http.*?/play.{0,3}\\?[^url]{2,8}=.*"      ]    },    {      "host": "www.sharenice.net",      "rule": [        "qianpailive.com",        "vid="      ]    },    {      "host": "*",      "rule": [        "douyin.com/aweme",        "video_id="      ]    },    {      "host": "*",      "rule": [        "huoshan.com",        "/item/video/"      ]    },    {      "host": "*",      "rule": [        "http((?!http).){12,}?\\.(m3u8|mp4|flv|avi|mkv|rm|wmv|mpg|m4a)\\?.*"      ]    },    {      "host": "*",      "rule": [        "http((?!http).){12,}\\.(m3u8|mp4|flv|avi|mkv|rm|wmv|mpg|m4a)"      ]    }  ],  "lives": [    {      "name": "live",      "type": 0,      "url": "http://www.lyyytv.cn/yt/live.txt",      "playerType": 1,      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",      "logo": "https://epg.112114.xyz/logo/{name}.png"    },    {      "name": "TV",      "type": 0,      "url": "https://agit.ai/fantaiying/fmm/raw/branch/main/tv/m3u/global.m3u",      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",      "logo": "https://epg.112114.xyz/logo/{name}.png"    }  ],  "flags": [    "youku",    "优酷",    "优 酷",    "优酷视频",    "qq",    "腾讯",    "腾 讯",    "腾讯视频",    "iqiyi",    "qiyi",    "奇艺",    "爱奇艺",    "爱 奇 艺",    "m1905",    "xigua",    "letv",    "leshi",    "乐视",    "乐 视",    "sohu",    "搜狐",    "搜 狐",    "搜狐视频",    "tudou",    "pptv",    "mgtv",    "芒果",    "imgo",    "芒果TV",    "芒 果 T V",    "bilibili",    "哔 哩",    "哔 哩 哔 哩"  ],  "ijk": [    {      "group": "软解码",      "options": [        {          "category": 4,          "name": "opensles",          "value": "0"        },        {          "category": 4,          "name": "overlay-format",          "value": "842225234"        },        {          "category": 4,          "name": "framedrop",          "value": "1"        },        {          "category": 4,          "name": "soundtouch",          "value": "1"        },        {          "category": 4,          "name": "start-on-prepared",          "value": "1"        },        {          "category": 1,          "name": "http-detect-range-support",          "value": "0"        },        {          "category": 1,          "name": "fflags",          "value": "fastseek"        },        {          "category": 2,          "name": "skip_loop_filter",          "value": "48"        },        {          "category": 4,          "name": "reconnect",          "value": "1"        },        {          "category": 4,          "name": "max-buffer-size",          "value": "5242880"        },        {          "category": 4,          "name": "enable-accurate-seek",          "value": "0"        },        {          "category": 4,          "name": "mediacodec",          "value": "0"        },        {          "category": 4,          "name": "mediacodec-auto-rotate",          "value": "0"        },        {          "category": 4,          "name": "mediacodec-handle-resolution-change",          "value": "0"        },        {          "category": 4,          "name": "mediacodec-hevc",          "value": "0"        },        {          "category": 1,          "name": "dns_cache_timeout",          "value": "600000000"        }      ]    },    {      "group": "硬解码",      "options": [        {          "category": 4,          "name": "opensles",          "value": "0"        },        {          "category": 4,          "name": "overlay-format",          "value": "842225234"        },        {          "category": 4,          "name": "framedrop",          "value": "1"        },        {          "category": 4,          "name": "soundtouch",          "value": "1"        },        {          "category": 4,          "name": "start-on-prepared",          "value": "1"        },        {          "category": 1,          "name": "http-detect-range-support",          "value": "0"        },        {          "category": 1,          "name": "fflags",          "value": "fastseek"        },        {          "category": 2,          "name": "skip_loop_filter",          "value": "48"        },        {          "category": 4,          "name": "reconnect",          "value": "1"        },        {          "category": 4,          "name": "max-buffer-size",          "value": "5242880"        },        {          "category": 4,          "name": "enable-accurate-seek",          "value": "0"        },        {          "category": 4,          "name": "mediacodec",          "value": "1"        },        {          "category": 4,          "name": "mediacodec-auto-rotate",          "value": "1"        },        {          "category": 4,          "name": "mediacodec-handle-resolution-change",          "value": "1"        },        {          "category": 4,          "name": "mediacodec-hevc",          "value": "1"        },        {          "category": 1,          "name": "dns_cache_timeout",          "value": "600000000"        }      ]    }  ],  "ads": [    "wan.51img1.com",    "iqiyi.hbuioo.com",    "vip.ffzyad.com",    "https://lf1-cdn-tos.bytegoofy.com/obj/tos-cn-i-dy/455ccf9e8ae744378118e4bd289288dd"  ]}
