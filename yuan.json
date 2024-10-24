@@ -1,0 +1,70 @@
+//接口全部来源于网络，首选感谢回忆提供短链支持，在感谢各位默默付出的大佬一直在维护接口。
+//接口失效我会在有时间时不定时更新，更新不及时请各位小主勿怪。感谢您的理解！！！
+//接口排名不分先后（个人使用习惯），接口名称前面的小图标也是为了美观和个人喜好添加的，请各位大佬勿怪！！！
+//接口地址：http://52bsj.vip:81/api/v3/file/get/127569/%E7%B2%BE%E5%93%81%E6%8E%A5%E5%8F%A3%E4%BB%93.json?sign=kYPn9C0wPUl_tvaHDTeA1bqsot2voOWh7eP_G2cczB8%3D%3A0
+//接口地址：https://i0k.cn/2xa129
+//接口地址：https://jihulab.com/duomv/apps/-/raw/main/fast.json
+//接口地址：https://jihulab.com/ygbh1/box/-/raw/main/dcang/dc2.json
+//接口地址：https://ghproxy.com/https://raw.githubusercontent.com/vbskycn/iptv/master/box/duocang.json
+{"urls":[
+    {"name":"MY猫猫","url":"http://肥猫.live"},    
+    {"name":"MY饭饭","url":"http://www.饭太硬.top/tv/"},
+    {"name":"MY小雅","url":"http://my.zhoujie218.top:4567/sub/0"}, 
+    
+    {"name":"MY巧巧","url":"http://pandown.pro/tvbox/tvbox.json"},
+    {"name":"MY空空","url":"https://raw.liucn.cc/box/m.json"}, 
+    {"name":"MY洒哥","url":"https://mirror.ghproxy.com/raw.githubusercontent.com/shichuanenhui/TvBox/main/fty.json"},
+    {"name":"ware影视","url":"https://github.zhoujie218.top/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/影视/api.json"},
+    {"name":"ware动漫","url":"https://github.zhoujie218.top/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/动漫/api.json"},
+    {"name":"ware文艺","url":"https://github.zhoujie218.top/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/文艺/api.json"},
+    {"name":"ware体育","url":"https://github.zhoujie218.top/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/体育/api.json"},
+    {"name":"ware教育","url":"https://github.zhoujie218.top/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/教育/api.json"},
+    {"name":"ware直播","url":"https://github.zhoujie218.top/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/直播/api.json"},
+    {"name":"ware磁力","url":"https://github.zhoujie218.top/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/磁力/api.json"},
+    {"name":"ware云盘","url":"https://github.zhoujie218.top/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/云盘/api.json"},
+    {"name":"MY欧歌","url":"http://tv.nxog.top/m/111.php?ou=公众号欧歌app&mz=index2&jar=index2&123&b=欧歌"},
+    {"name":"MY自用高清","url":"https://tv.zhoujie218.top/duocang/myhd.json"}, 
+    {"name":"MY自用标清","url":"https://tv.zhoujie218.top/duocang/mybq.json"}, 
+    
+    {"name":"MY探探","url":"http://www.lyyytv.cn/yt/yt.json"},
+    {"name":"🔰骚零","url":"https://100km.top/0"},
+    {"name":"🛡大卫","url":"https://xhdwc.tk/0"},
+    {"name":"💠乌鸦不太黑","url":"https://pan.shangui.cc/f/2DlAFx/Raven-DC.txt"},
+    {"name":"💮巴不巴拉","url":"https://bjson.cf/balabala"},
+    {"name":"💞神仙影视","url":"https://jihulab.com/shenxianyingshi/sxys/-/raw/main/sx.json"},
+    {"name":"MY桐桐","url":"http://tv.cttv.vip/uploads/itvbox/vip.json"},
+    {"name":"💝爱TV吧","url":"http://tt.58cxz.com/001.json"},
+    {"name":"MY吾爱","url":"http://52bsj.vip:98/wuai"},
+    {"name":"💞欧哥","url":"http://tv.nxog.top/m/"},
+    {"name":"🌼王小二","url":"http://tvbox.xn--4kq62z5rby2qupq9ub.xyz/"},
+    {"name":"MY荷城茶秀","url":"http://rihou.cc:88/荷城茶秀"},
+    {"name":"🐯catbox","url":"https://agit.ai/ddx/TVBox/raw/branch/master/catbox.json"},
+    {"name":"MY俊俊","url":"http://home.jundie.top:81/top98.json"},
+    {"name":"MY神器","url":"https://神器每日推送.tk/pz.json"},
+    {"name":"MY月光宝盒","url":"https://jihulab.com/ygbh1/box/-/raw/main/月光宝盒"},
+    {"name":"MY胖鸭","url":"https://agit.ai/cyl518/yl/raw/branch/master/pytv.json"},
+    {"name":"MY于氏","url":"https://agit.ai/sejinan/app/raw/branch/box/yu"},
+    {"name":"MY南风","url":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json"},
+    {"name":"☁云星","url":"http://itvbox.cc/tvbox/云星日记/1.m3u8"},
+    {"name":"catvod","url":"https://agit.ai/ddx/TVBox/raw/branch/master/t4.json"},
+    {"name":"OwenTV","url":"https://jihulab.com/owen2000wy/owentv/-/raw/main/OwenTV.json"},
+    {"name":"MY人人","url":"https://agit.ai/376242575/zzh/raw/branch/master/txt/影视.txt"},
+    {"name": "MY要要", "url": "https://ghp.ci/https://raw.githubusercontent.com/fish2018/tvbox/master/18.txt"},
+    {"name":"taoiptv源","url":"https://taoiptv.com/source/tvbox.json?token=6740sbdswgd35t9u"}, 
+    {"name":"smart-chat","url":"https://i.smart-chat.net/tvbox.json"}, 
+    {"name":"🐯猫技{跑马灯}","url":"https://agit.ai/ddx/TVBox/raw/branch/master/m.json"},
+    {"name":"💮分享者{跑马灯}","url":"https://agit.ai/767820774/mao666/raw/branch/master/00/000.m3u8"},
+    {"name":"🚚运输车{跑马灯}","url":"https://weixine.net/ysc.json"},
+    {"name":"🐰猫爪js","url":"https://codeberg.org/AK47/drpy-js/raw/branch/main/js.json"},
+    {"name":"🌈道长线路","url":"https://pastebin.com/raw/5NHaxyGR"},
+    {"name":"🚀骚零线路","url":"https://xhdwc.tk/0"},
+    {"name":"👀影音天堂","url":"http://tvbox.vip/4k"},
+    {"name":"🚀蜂蜜线路","url":"https://ghp.ci/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/config.json"},
+    {"name":"MY星辰","url":"http://8.210.232.168/xc.json"},
+    {"name":"MY巧技","url":"https://agit.ai/relax/adcc/raw/branch/master/tvbox.json"},
+    {"name":"多多优选仓","Url":"https://jihulab.com/duomv/apps/-/raw/main/a.txt"},
+    {"name":"多多公众仓","Url":"https://jihulab.com/duomv/apps/-/raw/main/b.txt"},
+    {"name":"多多聚合仓","Url":"https://jihulab.com/duomv/apps/-/raw/main/c.txt"},
+    {"name":"多多预备仓","Url":"https://jihulab.com/duomv/apps/-/raw/main/d.txt"}
+    ]}
+    
