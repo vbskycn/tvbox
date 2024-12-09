@@ -1,0 +1,589 @@
+{
+    "spider": "https://ghp.ci/https://raw.githubusercontent.com/vbskycn/tvbox/main/jar/ware教育.jar",
+    "wallpaper": "https://api.likepoems.com/img/bing",
+    "sites": [
+        {
+            "key": "兔小贝",
+            "name": "兔小贝｜首页",
+            "type": 3,
+            "api": "https://github.zhoujie218.top/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/教育/js/drpy2.min.js",
+            "ext": "https://github.zhoujie218.top/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/教育/js/兔小贝.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "配置中心",
+            "name": "配置｜中心",
+            "type": 3,
+            "api": "csp_Config",
+            "searchable": 0,
+            "changeable": 0,
+            "indexs": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "贝乐虎",
+            "name": "贝乐虎｜儿童",
+            "type": 3,
+            "api": "https://github.zhoujie218.top/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/教育/js/drpy2.min.js",
+            "ext": "https://github.zhoujie218.top/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/教育/js/贝乐虎.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "儿童拼音",
+            "name": "儿童拼音｜哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "https://github.zhoujie218.top/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/教育/json/儿童拼音.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "儿童识字",
+            "name": "儿童识字｜哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "https://github.zhoujie218.top/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/教育/json/儿童识字.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "儿童英语",
+            "name": "儿童英语｜哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "https://github.zhoujie218.top/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/教育/json/儿童英语.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "儿童硬笔",
+            "name": "儿童硬笔｜哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "https://github.zhoujie218.top/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/教育/json/儿童硬笔.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "儿童思维",
+            "name": "儿童思维｜哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "https://github.zhoujie218.top/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/教育/json/儿童思维.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "儿童口才",
+            "name": "儿童口才｜哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "https://github.zhoujie218.top/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/教育/json/儿童口才.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "儿童编程",
+            "name": "儿童编程｜哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "https://github.zhoujie218.top/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/教育/json/儿童编程.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "儿童武术",
+            "name": "儿童武术｜哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "https://github.zhoujie218.top/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/教育/json/儿童武术.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "少儿教育",
+            "name": "少儿教育｜哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "https://github.zhoujie218.top/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/教育/json/少儿教育.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "小学课堂",
+            "name": "小学课堂｜哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "https://github.zhoujie218.top/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/教育/json/小学课堂.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "初中课堂",
+            "name": "初中课堂｜哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "https://github.zhoujie218.top/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/教育/json/初中课堂.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "高中教育",
+            "name": "高中课堂｜哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "https://github.zhoujie218.top/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/教育/json/高中课堂.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "外语课堂",
+            "name": "外语课堂｜哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "https://github.zhoujie218.top/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/教育/json/外语课堂.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "小灯塔百科",
+            "name": "小灯塔百科｜哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "https://github.zhoujie218.top/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/教育/json/小灯塔百科.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "小灯塔科学",
+            "name": "小灯塔科学｜哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "https://github.zhoujie218.top/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/教育/json/小灯塔科学.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "小灯塔地理",
+            "name": "小灯塔地理｜哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "https://github.zhoujie218.top/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/教育/json/小灯塔地理.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "小灯塔国学",
+            "name": "小灯塔国学｜哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "https://github.zhoujie218.top/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/教育/json/小灯塔国学.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "小灯塔人文",
+            "name": "小灯塔人文｜哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "https://github.zhoujie218.top/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/教育/json/小灯塔人文.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "push_agent",
+            "name": "手机｜推送",
+            "type": 3,
+            "api": "csp_Push",
+            "searchable": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {
+                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+                "danmu": true
+            }
+        }
+    ],
+    "doh": [
+        {
+            "name": "Google",
+            "url": "https://dns.google/dns-query",
+            "ips": [
+                "8.8.4.4",
+                "8.8.8.8"
+            ]
+        },
+        {
+            "name": "Cloudflare",
+            "url": "https://cloudflare-dns.com/dns-query",
+            "ips": [
+                "1.1.1.1",
+                "1.0.0.1",
+                "2606:4700:4700::1111",
+                "2606:4700:4700::1001"
+            ]
+        },
+        {
+            "name": "AdGuard",
+            "url": "https://dns.adguard.com/dns-query",
+            "ips": [
+                "94.140.14.140",
+                "94.140.14.141"
+            ]
+        },
+        {
+            "name": "DNSWatch",
+            "url": "https://resolver2.dns.watch/dns-query",
+            "ips": [
+                "84.200.69.80",
+                "84.200.70.40"
+            ]
+        },
+        {
+            "name": "Quad9",
+            "url": "https://dns.quad9.net/dns-quer",
+            "ips": [
+                "9.9.9.9",
+                "149.112.112.112"
+            ]
+        }
+    ],
+    "lives": [
+        {
+            "name": "直播",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://tv.iill.top/m3u/Gather",
+            "playerType": 2
+        },
+        {
+            "name": "范明明",
+            "type": 0,
+            "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+            "playerType": 2
+        },
+        {
+            "name": "肥羊",
+            "type": 3,
+            "api": "csp_Ysptp",
+            "ext": "https://github.ednovas.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/live.txt",
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
+        }
+    ],
+    "ijk": [
+        {
+            "group": "软解码",
+            "options": [
+                {
+                    "category": 4,
+                    "name": "opensles",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "overlay-format",
+                    "value": "842225234"
+                },
+                {
+                    "category": 4,
+                    "name": "framedrop",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "soundtouch",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "start-on-prepared",
+                    "value": "1"
+                },
+                {
+                    "category": 1,
+                    "name": "http-detect-range-support",
+                    "value": "0"
+                },
+                {
+                    "category": 1,
+                    "name": "fflags",
+                    "value": "fastseek"
+                },
+                {
+                    "category": 2,
+                    "name": "skip_loop_filter",
+                    "value": "48"
+                },
+                {
+                    "category": 4,
+                    "name": "reconnect",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "enable-accurate-seek",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-auto-rotate",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-handle-resolution-change",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-hevc",
+                    "value": "0"
+                },
+                {
+                    "category": 1,
+                    "name": "dns_cache_timeout",
+                    "value": "600000000"
+                }
+            ]
+        },
+        {
+            "group": "硬解码",
+            "options": [
+                {
+                    "category": 4,
+                    "name": "opensles",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "overlay-format",
+                    "value": "842225234"
+                },
+                {
+                    "category": 4,
+                    "name": "framedrop",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "soundtouch",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "start-on-prepared",
+                    "value": "1"
+                },
+                {
+                    "category": 1,
+                    "name": "http-detect-range-support",
+                    "value": "0"
+                },
+                {
+                    "category": 1,
+                    "name": "fflags",
+                    "value": "fastseek"
+                },
+                {
+                    "category": 2,
+                    "name": "skip_loop_filter",
+                    "value": "48"
+                },
+                {
+                    "category": 4,
+                    "name": "reconnect",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "enable-accurate-seek",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-auto-rotate",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-handle-resolution-change",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-hevc",
+                    "value": "1"
+                },
+                {
+                    "category": 1,
+                    "name": "dns_cache_timeout",
+                    "value": "600000000"
+                }
+            ]
+        }
+    ]
+}
