@@ -1,0 +1,1888 @@
+{
+  "spider": "https://ghp.ci/https://raw.githubusercontent.com/vbskycn/tvbox/main/jar/MY桐桐.jar",
+  "spider": "http://www.tvboxx.top/tv/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
+  "wallpaper": "https://ent.cttv.vip/tp-api/api.php",
+  "lives": [
+    {
+      "name": "live",
+      "type": 0,
+      "url": "http://tv.cttv.vip/uploads/itvbox/tv1.txt",
+      "playerType": 1,
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    }
+  ],
+  "sites": [
+//**********推荐接口**********
+    {
+      "key": "刺桐影视",
+      "name": "️刺桐影视",
+      "type": 1,
+      "playerType": 1,
+      "api": "http://pg.cttv.vip/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "categories": [
+        "电影",
+        "电视剧",
+        "综艺",
+        "动漫",
+        "记录片",
+        "电影解说",
+        "短剧"
+      ]
+    },
+    
+    {
+      "key": " 八八 ",
+      "name": "八八影视┃刺桐",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+      "分类url":"https://www.88tvs.cn/vodshow/{cateId}--{by}------{catePg}---.html",
+      "分类": "电影&连续剧&动漫&综艺&短剧",
+      "分类值": "1&2&3&4&5&"
+            }
+    },
+    {
+      "key": " 7味",
+      "name": "7味影视┃刺桐",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+            "分类url":"https://www.pkmkv.com/ms/{cateId}--------{catePg}---.html",
+            "分类": "电影&连续剧&综艺&动漫",
+            "分类值": "1&2&3&4"
+            }
+    },
+    
+    {
+      "key": "皮皮影视",
+      "name": "皮皮影视┃刺桐",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+            "分类url":"https://www.pptv06.com/vodtype/{cateId}.html",
+            "分类": "电影&电视剧&综艺&动漫&短剧",
+            "分类值": "1&2&3&4&5"
+            }
+    },
+    
+    {
+      "key": "悠云影视",
+      "name": "悠云影视┃刺桐",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+            "分类url":"https://yoyys1.com/vodtype/{cateId}.html",
+            "分类": "电影&电视剧&综艺&动漫&短剧",
+            "分类值": "1&2&3&4&38"
+            }
+    },    
+
+    {
+      "key": "来看影视",
+      "name": "来看影视┃刺桐",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+            "分类url":"https://lkvod.us/type/{cateId}.html",
+            "分类": "电影&电视剧&综艺&动漫&短剧",
+            "分类值": "1&2&3&4&21"
+            }
+    },  
+    
+    {
+      "key": "官网影视",
+      "name": "官网影视┃刺桐",
+      "type": 1,
+      "playerType": 1,
+      "api": "http://gwcms.cttv.vip/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "categories": [
+        "电影",
+        "电视剧",
+        "综艺",
+        "动漫",
+        "记录片",
+        "短剧"
+      ]
+    },
+
+{
+            "key": "奇影1080",
+            "name": "奇影1080┃刺桐",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "副标题": "module-item-note\">&&</div>",
+                "简介": "微信公众号【刺桐娱乐】祝您观影愉快！请勿相信影片中的广告，以免上当受骗。+module-info-introduction-content\">&&</p >",
+                "线路数组": "module-tab-item tab-item&&</div>",
+                "线路标题": "刺桐娱乐",
+                "跳转播放链接": "var player_*\"url\":\"&&\"",
+                "分类url": "https://www.m2077.com/vod-show/{cateId}-{area}-{by}------{catePg}---{year}/",
+                "分类": "短剧$41#电影$1#剧集$2#综艺$3#动漫$4#纪录片$5#体育$38"
+            }
+        },
+        
+{
+	"key": "👀可可影院",
+	"name": "👀可可影院",
+	"type": 3,
+	"api": "csp_XBPQ",
+	"searchable": 1,
+	"quickSearch": 1,
+	"filterable": 1,
+	"ext": {
+		"首页": "https://www.keke13.com:51111/",
+		"请求头": "手机",
+		"数组": "<a&&</div></div></a",
+		"图片": "data-original=\"&&\"",
+		"标题": "title=\"&&\"",
+
+		"分类url": "https://www.keke13.com:51111/channel/{cateId}.html",
+		"分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$6"
+	}
+},
+        
+        {
+      "key": "七夕1080",
+      "name": "七夕1080┃刺桐",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext":    {
+    
+    "简介":"微信公众号【刺桐娱乐】祝您观影愉快！请勿相信影片中的广告，以免上当受骗！<span class=\"detail-content\" style=*>&&</span>",
+    
+    "影片状态":"状态：&&</p>",
+    
+    "搜索url":"/search.php;post;searchword={wd}",
+    
+    "线路数组":"<h3&&/h3>",
+    
+    "线路标题":"刺桐娱乐",
+    
+    "分类url":"http://www.7xdy.com/{cateId}/index{catePg}.html[http://www.7xdy.com/{cateId}/index.html];;k",
+    
+    "分类":"电影$dianyingpian#电视剧$dianshiju#综艺$zongyi#动漫$dongman"}
+    },
+    
+  {
+      "key": "长影1080",
+      "name": "长影1080┃刺桐",
+      "type": 3,
+      "api": "http://vip.hys.cool/app/js/drpy2.min.js",
+      "ext": "http://vip.hys.cool/app/bin/czzy.js"
+    },
+    
+        {
+      "key": "威武秒播",
+      "name": "威武秒播┃刺桐",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://tv.cttv.vip/uploads/itvbox/json/voflix.json"
+    },
+    
+        {
+      "key": "玖霸秒播",
+      "name": "玖霸秒播┃刺桐",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+    "简介":"微信公众号【刺桐娱乐】祝您观影愉快！请勿相信影片中的广告，以免上当受骗！+<span class=\"detail-content\" style=*>&&</span>",
+    
+    "影片状态":"状态：&&</p>",
+    
+    "搜索url":"/search.php;post;searchword={wd}",
+    
+    "线路数组":"<h3&&/h3>",
+    
+    "线路标题":"刺桐娱乐",
+    
+    "分类url":"http://www.98dyb.com/{cateId}/index{catePg}.html[http://www.7xdy.com/{cateId}/index.html];;k",
+    
+    "分类":"电影$dianyingpian#电视剧$dianshiju#综艺$zongyi#动漫$dongman"}
+    },
+    {
+      "key": "348秒播",
+      "name": "348秒播┃刺桐",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext":     {
+    "简介":"微信公众号【刺桐娱乐】祝您观影愉快！请勿相信影片中的广告，以免上当受骗！+详情：&&</div>",
+     
+    "导演":"导演：&&</li>",
+    
+    "主演":"主演：&&</li>",
+    
+    "影片状态":"状态：&&</li>",
+    
+    "影片类型":"data vodTag\">&&</li>",
+    
+    "数组":"list-width volistwidthb\">&&</li>",
+    
+    "标题":"title=\"&&\"",
+    
+    "副标题":"list-remarks hidden\">&&</span>",
+    
+    "图片":"data-original=\"&&\"",
+    
+    "链接":"href=\"&&\"",
+    
+    "搜索url":"/vodsearch.html?wd={wd}",
+    
+    "搜索模式":"1",
+    
+    "搜索数组":"img lazy eclazy br\"&&</a>",
+    
+    "搜索标题":"title=\"&&\"",
+    
+    "搜索副标题":"list-remarks hidden\">&&</span>",
+    
+    "搜索图片":"data-original=\"&&\"",
+    
+    "搜索链接":"href=\"&&\"",
+    
+    "线路数组":"data-from=&&</a>[不包含:超清资源#MY][排序:极速2]",
+    
+    "线路标题":"刺桐娱乐",
+ 
+    "分类url":"https://348z.com/vodshow/{area}{by}/id/{cateId}/page/{catePg}/year/{year}.html;;ak",
+    
+    "分类":"电影$1#电视剧$2#综艺$3#动漫$4"}
+    },
+    {
+      "key": "五五秒播",
+      "name": "五五秒播┃刺桐",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext":     {
+    
+    "简介":"微信公众号【刺桐娱乐】祝您观影愉快！请勿相信影片中的广告，以免上当受骗！+<p class=\"col-pd\"&&</p>",
+    
+    "导演":"导演：&&</p>",
+    
+    "主演":"主演：&&</p>",
+   
+    "线路数组":"<h3 class=\"title\">&&/h3>",
+    
+    "线路标题":"刺桐娱乐",
+    
+    "分类url":"https://www.5555kan.com/show/{cateId}-{area}-{by}------{catePg}---{year}.html;;ak",
+    
+    "分类":"电影$1#电视剧$2#综艺$3#动漫$4"}
+    },
+    
+    
+    
+            {
+            "key": "歪影秒播",
+            "name": "歪影秒播┃刺桐",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+    "简介":"微信公众号【刺桐娱乐】祝您观影愉快！请勿相信影片中的广告，以免上当受骗！module-info-introduction-content\">&&</div>",
+    
+    "导演":"导演：&&</div>",
+    
+    "主演":"主演：&&</div>",
+    
+    "影片状态":"集数：&&</div>",
+    
+    "影片类型":"module-info-tag\">&&</a></div></div>",
+    
+    "数组":"<a&&</div></div></a>",
+    
+    "标题":"title=\"&&\"",
+    
+    "副标题":"note\">&&</div>",
+    
+    "图片":"data-src=\"&&\"",
+    
+    "链接":"href=\"&&\"",
+    
+    "搜索url":"https://waipian14.com/search-{wd}-------------/",
+    
+    "搜索数组":"module-card-item-class\">&&</a>",
+    
+    "搜索标题":"alt=\"&&\"",
+    
+    "搜索副标题":"note\">&&</div>",
+    
+    "搜索图片":"data-src=\"&&\"",
+    
+    "搜索链接":"href=\"&&\"",
+    
+    "线路数组":"data-dropdown-value=&&</div>[不包含:SD源#BD源#TK源#UK源#WJ源#BJ源#HN源]",
+    
+    "线路标题":"刺桐娱乐",
+    
+    "分类url":"https://waipian14.com/show-{cateId}-{area}-{by}-{class}-----{catePg}---{year}/;;am0k",
+    
+    "分类":"电影$dianying#电视剧$juji#综艺$zongyi#动漫$dongman#纪录片$jilupian"}
+    },
+            {
+      "key": "骚火秒播",
+      "name": "骚火秒播┃刺桐",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext":    {
+    "简介":"微信公众号【刺桐娱乐】祝您观影愉快！请勿相信影片中的广告，以免上当受骗！++<p class=\"p_txt show_part\"&&</p>",
+    "导演":"刺桐娱乐",
+    "主演":"刺桐娱乐",
+    "影片地区":"</h1><p>&& / ",
+    "影片年代":"<p>* / && /",
+    "影片状态":"v_note\">&&</div>",
+    "搜索url":"https://saohuo.tv/search.php?searchword={wd}",
+    "线路二次截取":"<ul class=\"from_list\">&&</ul>",
+    "线路数组":"<li&&/li>",
+    "线路标题":"刺桐娱乐",
+    "分类url":"https://saohuo.tv/list/{cateId}{area}{by}{class}{lang}{catePg}{year}.html;;ak",
+    "分类":"电影$1#电视剧$2"}
+    },
+    {
+      "key": "黑狐秒播",
+      "name": "黑狐秒播┃刺桐",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext":{
+				"主页url": "http://fagmn.com",
+				"数组": "class=\"stui-vodlist__box\"&&</a",
+				"图片": "data-original=\"&&\"",
+				"标题": "title=\"&&\"",
+				"链接": "href=\"&&\"",
+				"嗅探词": ".m3u8?#v3.huoshanvod.com#.m3u8#v3-dy-o.zjcdn#sf16-sg.larksuitecdn.com#v.kd1.qq.com#.mp4",
+				"过滤词": "/hls/#php",
+				"副标题": "<span class=\"pic-text text-right\">&&</span>",
+				"搜索url": "http://fagmn.com/search.php;post;searchword={wd}",
+				"搜索模式": "1",
+				"搜索数组": "<a class=\"v-thumb stui-vodlist__thumb&&</a>",
+				"搜索图片": "data-original=\"&&\"",
+				"搜索标题": "title=\"&&\"",
+				"搜索链接": "href=\"&&\"",
+				"搜索副标题": "刺桐娱乐",
+				"搜索后缀": "/view/",
+				"线路数组": "href=\"#down&&/a>[替换:奇异视频>>一线#优酷视频>>二线#搜狐视频>>三线#咪咕视频>>四线]",
+				"线路标题": "刺桐娱乐",
+				"播放数组": "class=\"stui-content__playlist clearfix&&</ul>",
+				"状态": "地区：&&</p>",
+				"导演": "刺桐娱乐",
+				"主演": "刺桐娱乐",
+				"简介": "微信公众号【刺桐娱乐】祝您观影愉快！请勿相信影片中的广告，以免上当受骗。+简介：&&</div>",
+				"播放列表": "<a&&/a>",
+				"播放标题": ">&&<",
+				"播放链接": "href=\"&&\"",
+				"免嗅": "0",
+				"分类": "电影$1#电视剧$2#动漫$3#综艺$4",
+				"分类url": "http://fagmn.com/list/{cateId}_{catePg}.html?order=time"
+			}
+    }, 
+        {
+      "key": "火影秒播",
+      "name": "火影秒播┃刺桐",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 0,
+      "quickSearch": 1,
+      "playerType": "2",
+      "api": "csp_XBPQ",
+      "ext": {
+      "导演": "刺桐娱乐",
+	  "主演": "刺桐娱乐",
+	  "简介": "请勿相信影片中的广告，以免上当受骗。+简介：&&</div>",
+	  "线路数组": "刺桐娱乐",
+	  "线路标题": "刺桐娱乐",
+        "嗅探词": ".m3u8#.mp4#.m3u8?#freeok.mp4",
+        "分类url": "https://shdy2.com/list/{cateId}-{catePg}.html;;vr1au0",
+        "分类": "电影$1#电视剧$2#韩剧$22#美剧$23#动漫$4",
+        "数组二次截取": "class=\"v_list\">&&</ul>",
+        "数组": "\"v_img\"&&/div>",
+        "标题": "title=\"&&\"",
+        "副标题": "v_note\"&&</div",
+        "跳转播放链接": "<iframe*src=\"&&\"",
+        "二次跳转播放链接": "https://hhjx.hhplayer.com/api.php;post;url=+var url*\"&&\"+&t=+var t*\"&&\"+&key=+var key*\"&&\"+&act=0+&play=1",
+        "三次跳转播放链接": "\"url\"*\"&&\""
+      }
+    },
+        {
+      "key": "快看秒播",
+      "name": "快看秒播┃刺桐",
+      "type": 3,
+      "api": "csp_AppKKYS",
+      "searchable": 1,
+      "changeable": 0,
+      "jar": "http://vip.hys.cool/app/bin/1.jar;md5;A21EA6F5DD3B5F922B3A7F54D3BD0F16",
+      "ext": [
+        {
+          "from": "swf",
+          "to": "极速"
+        },
+        {
+          "from": "mmmm",
+          "to": "自营"
+        },
+        {
+          "from": "jp",
+          "to": "荐片"
+        }
+      ]
+    },
+       	{
+      "key": "迪哥秒播",
+      "name": "迪哥秒播┃刺桐",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://yingszj.xn--654a.cc/api.php/app/"
+    },
+		    {
+      "key": "看吧秒播",
+      "name": "看吧秒播┃刺桐",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "api": "csp_XYQHiker",
+      "jar": "http://vip.hys.cool/app/bin/kanb1.txt;md5;A21EA6F5DD3B5F922B3A7F54D3BD0F16",
+      "ext": "http://vip.hys.cool/app/bin/看吧.json"
+    },
+    {
+      "key": "爱影秒播",
+      "name": "爱影秒播┃刺桐",
+      "type": 3,
+      "api": "csp_Ikanbot",
+      "searchable": 1,
+      "quickSearch": 1,
+      "jar":"http://vip.hys.cool/app/bin/tt.jar",
+      "filterable": 1
+    },
+        {
+      "key": "奇优蓝光",
+      "name": "奇优蓝光┃刺桐",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext":{
+    "简介":"微信公众号【刺桐娱乐】祝您观影愉快！请勿相信影片中的广告，以免上当受骗！+&&</div>",
+    "主演":"刺桐娱乐",
+    "导演":"刺桐娱乐",
+    "影片类型":"类型：&&立即播放",
+    "影片状态":"更新：&&</p>",
+    "数组":"<div class=\"stui-vodlist__box\">&&</a>",
+    "图片":"data-original=\"&&\"",
+    "标题":"title=\"&&\"",
+    "副标题":"text-right\">&&</span>",
+    "链接":"href=\"&&\"",
+    "搜索url":"/search.php;post;searchword={wd}",
+    "搜索数组":"v-thumb stui-vodlist__thumb&&</a>",
+    "搜索图片":"data-original=\"&&\"",
+    "搜索标题":"title=\"&&\"",
+    "搜索副标题":"刺桐娱乐",
+    "搜索链接":"href=\"&&\"",
+    "线路数组":"刺桐娱乐",
+    "线路标题":"刺桐娱乐",
+    "播放数组":"stui-content__playlist clearfix&&</ul>",
+    "播放列表":"<li>&&</li>",
+    "播放标题":">&&</a>",
+    "分类url":"http://www.qiyoudy1.com/list/{cateId}_{catePg}.html[http://www.qiyoudy1.com/list/{cateId}.html];;ak",
+    "分类":"电影$1#电视剧$2#动漫$3#综艺$4",
+    "筛选":{
+    "1":[
+    {"key":"by","name":"排序","value":[
+    {"n":"时间排序","v":"time"},
+    {"n":"人气排序","v":"score"},
+    {"n":"评分排序","v":"hits"}
+    ]
+    }
+    ],
+    "2":[
+    {"key":"by","name":"排序","value":[
+    {"n":"时间排序","v":"time"},
+    {"n":"人气排序","v":"score"},
+    {"n":"评分排序","v":"hits"}
+    ]
+    }
+    ],
+    "3":[
+    {"key":"by","name":"排序","value":[
+    {"n":"时间排序","v":"time"},
+    {"n":"人气排序","v":"score"},
+    {"n":"评分排序","v":"hits"}
+    ]
+    }
+    ],
+    "4":[
+    {"key":"by","name":"排序","value":[
+    {"n":"时间排序","v":"time"},
+    {"n":"人气排序","v":"score"},
+    {"n":"评分排序","v":"hits"}
+    ]
+    }
+    ]
+    }
+    }
+    
+    },
+    {
+    "key":"星辰蓝光",
+    "name":"星辰蓝光┃刺桐",
+    "type":3,
+    "api":"csp_XBPQ",
+    "searchable":1,
+    "quickSearch":1,
+    "filterable":1,
+    "ext":"http://vip.hys.cool/app/bin/xcys.json"
+    },
+
+     {   
+      "key": "火狐蓝光",
+      "name": "火狐蓝光┃刺桐",
+      "type": 1,
+      "api": "https://hhzyapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+      "短剧",
+      "科幻片",
+      "动作片",
+      "恐怖片",
+      
+      "记录片",
+      "欧美剧",
+      "香港剧",
+      "韩剧",
+      "日剧",
+      "马泰剧",
+      "日韩综艺",
+      "港台综艺",
+      "欧美综艺",
+      "大陆综艺",
+      "动画片",
+      "中国动漫",
+      "日本动漫",
+      "欧美动漫",
+      "动漫",
+      "爱情片",
+      "喜剧片",
+      "剧情片",
+      "战争片"
+      ]
+    },
+    {
+      "key": "索尼蓝光",
+      "name": "索尼蓝光┃刺桐",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "篮球",
+        "足球",
+        "影视解说",
+        "科幻片",
+        "动作片",
+        "恐怖片",
+        "纪录片",
+        "预告片",
+        "喜剧片",
+        "爱情片",
+        "国产剧",
+        "欧美剧",
+        "韩剧",
+        "日剧",
+        "港剧",
+        "台剧",
+        "泰剧",
+        "纪录片",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫",
+        "动画片",
+        "港台动漫",
+        "海外动漫"
+      ]
+    },
+
+    {
+      "key": "五月蓝光",
+      "name": "五月蓝光┃刺桐",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+    "简介":"微信公众号【刺桐娱乐】祝您观影愉快！请勿相信影片中的广告，以免上当受骗。+<div class=\"text text-row text-row-2\"&&</div>",
+    
+    "影片状态":"状态：&&</span>",
+    
+    "影片类型":"分类：&&</span>",
+    
+    "数组":"pic\">&&</li>",
+    
+    "副标题":"item-status text-overflow\">&&</p>",
+    
+    "搜索url":"/vodsearch/-------------.html?wd={wd}",
+    
+    "搜索数组":"pic\">&&</ul>",
+    
+    "搜索副标题":"text-overflow\">&&</p>",
+    
+    "线路数组":"role=\"group\"&&</em>",
+    
+    "线路标题":"刺桐娱乐",
+    
+    "分类url":"http://www.wuyevod.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html;;ak",
+    
+    "分类":"电影$vod#电视剧$tv#综艺$zongyi#动漫$dongman"}
+    },
+    {
+      "key": "云播蓝光",
+      "name": "云播蓝光┃刺桐",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://vip.hys.cool/app/bin/TVB云播.json"
+    },
+    {
+      "key": "米爱蓝光",
+      "name": "米爱蓝光┃刺桐",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://vip.hys.cool/app/bin/米爱影视.json"
+    },
+    {
+      "key": "速播蓝光",
+      "name": "速播蓝光┃刺桐",
+      "type": 1,
+      "api": "https://subocaiji.com/api.php/provide/vod/",
+      "playUrl": "",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+ 
+        {
+      "key": "高速热播",
+      "name": "高速热播┃刺桐",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://vip.hys.cool/app/bin/热播之家.json"
+    },
+        {
+      "key": "影视爱看",
+      "name": "影视爱看┃刺桐",
+      "type": 1,
+      "api": "https://ikunzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "惊悚片",
+        "家庭片",
+        "古装片",
+        "历史片",
+        "悬疑片",
+        "犯罪片",
+        "灾难片",
+        "记录片",
+        "短片",
+        "动画片",
+        "国产剧",
+        "香港剧",
+        "韩国剧",
+        "欧美剧",
+        "台湾剧",
+        "日本剧",
+        "海外剧",
+        "泰国剧",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "国产动漫",
+        "欧美动漫",
+        "日本动漫"
+      ]
+    },
+    {
+      "key": "秒播子子",
+      "name": "秒播子子┃刺桐",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://vip.hys.cool/app/bin/zizi.json"
+    },
+    {"key":"良子短剧","name":"良子短剧┃刺桐","type":1,"api":"https://cj.lzcaiji.com/api.php/provide/vod/from/liangzi/?ac=list","searchable":1,"quickSearch":1,"filterable":1,"categories":[
+        "短剧",
+        "预告片",
+        "电影解说",
+        "科幻片",
+        "动作片",
+        "恐怖片",
+        "纪录片",
+        "香港剧",
+        "喜剧片",
+        "爱情片",
+        "国产剧",
+        "欧美剧"
+        ]
+     },
+         {
+         "key":"榜一短剧",
+         "name":"榜一短剧┃刺桐",
+         "type":3,
+         "api":"csp_XBPQ",
+         "ext":{
+         "简介":"微信公众号【刺桐娱乐】祝您观影愉快！请勿相信影片中的广告，以免上当受骗！+vod_content\">&&</div>",
+         "主演":"刺桐娱乐",
+         "导演":"刺桐娱乐",
+         "线路数组":"<h3&&</h3>[替换:云视听>>刺桐影视]",
+         "线路标题": "刺桐娱乐",
+         "分类url":"https://duanjuu.com/vodshow/{cateId}--------{catePg}---.html",
+         "分类数组":"grid-item\">&&</li>",
+         "分类标题":"grid-item-name\">&&</div>",
+         "分类ID":"/vodtype/&&.html"}
+         },
+      {
+      "key": "KTV听歌",
+      "name": "KTV听歌┃刺桐",
+      "type": 3,
+      "api": "csp_Iktv",
+      "searchable": 1,
+      "changeable": 0,
+      "jar": "https://cloud.lxweb.cn/f/Zr1NSz/Xyt.jar"
+    },
+    {
+      "key": "宝片视频",
+      "name": "宝片视频┃刺桐",
+      "type": 1,
+      "playerType": 1,
+      "api": "https://zpsps.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "categories": [
+        "影院",
+        "连续剧",
+        "综艺",
+        "动漫"
+      ]
+    },
+    {
+      "key": "m2077影视",
+      "name": "m2077影视┃刺桐",
+      "type": 1,
+      "playerType": 1,
+      "api": "https://www.m2077.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "categories": [
+        "电影",
+        "剧集",
+        "综艺",
+        "动漫",
+        "记录片",
+        "短剧爽剧"
+      ]
+    },
+{
+      "key": "电影网",
+      "name": "就爱电影┃刺桐",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类url": "https://www.hblpzd.com/{cateId}/",
+        "分类": "电视剧$dianshiju#电影$dianying#动漫$dongman#综艺$zongyi"
+      }
+    },
+    {
+      "key": "勇往独家一",
+      "name": "勇往独家┃刺桐",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "http://www.tvboxx.top/tv/lib/c.txt;md5;bb155c3f0133bbce4756ad52003f5968",
+      "playerType": "2",
+      "api": "csp_XBPQ",
+      "ext": {
+        "站名": "黑狐影院",
+        "主页url": "http://fagmn.com",
+        "数组": "class=\"stui-vodlist__box\"&&</a",
+        "图片": "data-original=\"&&\"",
+        "标题": "title=\"&&\"",
+        "链接": "href=\"&&\"",
+        "嗅探词": ".m3u8?#v3.huoshanvod.com#.m3u8#v3-dy-o.zjcdn#sf16-sg.larksuitecdn.com#v.kd1.qq.com#.mp4",
+        "过滤词": "/hls/#php",
+        "副标题": "<span class=\"pic-text text-right\">&&</span>",
+        "搜索url": "http://fagmn.com/search.php;post;searchword={wd}",
+        "搜索模式": "1",
+        "搜索数组": "<a class=\"v-thumb stui-vodlist__thumb&&</a>",
+        "搜索图片": "data-original=\"&&\"",
+        "搜索标题": "title=\"&&\"",
+        "搜索链接": "href=\"&&\"",
+        "搜索副标题": "<span class=\"pic-text text-right\">&&</span>",
+        "搜索后缀": "/view/",
+        "线路数组": "href=\"#down&&/a>[替换:奇异视频>>勇往播放源1#优酷视频>>勇往播放源2#搜狐视频>>勇往播放源3#咪咕视频>>勇往播放源4]",
+        "线路标题": ">&&<",
+        "播放数组": "class=\"stui-content__playlist clearfix&&</ul>",
+        "状态": "地区：&&</p>",
+        "导演": "导演：&&</p>",
+        "主演": "主演：&&</p>",
+        "简介": "微信公众号【刺桐娱乐】祝您观影愉快！    影片简介：+简介：&&</div>",
+        "播放列表": "<a&&/a>",
+        "播放标题": ">&&<",
+        "播放链接": "href=\"&&\"",
+        "免嗅": "0",
+        "分类": "电影$1#电视剧$2#动漫$3#综艺$4",
+        "分类url": "http://fagmn.com/list/{cateId}_{catePg}.html?order=time"
+      }
+    },    
+
+    {
+      "key": "勇往高清三",
+      "name": "北极高清┃刺桐",
+      "type": 1,
+      "api": "https://ikunzyapi.com/api.php/provide/vod/",
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "惊悚片",
+        "家庭片",
+        "古装片",
+        "历史片",
+        "悬疑片",
+        "犯罪片",
+        "灾难片",
+        "国产剧",
+        "香港剧",
+        "韩国剧",
+        "欧美剧",
+        "台湾剧",
+        "日本剧",
+        "海外剧",
+        "泰国剧",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "国产动漫",
+        "欧美动漫",
+        "日本动漫",
+        "动画片",
+        "记录片",
+        "伦理片"
+      ]
+    },
+
+    {
+      "key": "勇往高清六",
+      "name": "亿速高清┃刺桐",
+      "type": 1,
+      "api": "https://hhzyapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "科幻片",
+        "奇幻片",
+        "恐怖片",
+        "战争片",
+        "悬疑片",
+        "犯罪片",
+        "动画片",
+        "爱情片",
+        "剧情片",
+        "记录片",
+        "中国动漫",
+        "日本动漫",
+        "欧美动漫",
+        "内地剧",
+        "香港剧",
+        "台湾剧",
+        "日剧",
+        "韩剧",
+        "欧美剧",
+        "马泰剧",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺"
+      ]
+    },
+    {
+      "key": "勇往高清八",
+      "name": "可米高清┃刺桐",
+      "type": 1,
+      "api": "http://cj.lziapi.com/api.php/provide/vod/",
+      "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "categories": [
+        "国产剧",
+        "国产动漫",
+        "泰国剧",
+        "台湾剧",
+        "香港剧",
+        "欧美剧",
+        "韩国剧",
+        "日本剧",
+        "动漫",
+        "体育",
+        "剧情片",
+        "动作片",
+        "爱情片",
+        "喜剧片"
+      ]
+    },
+    {
+      "key": "勇往短剧一",
+      "name": "老罗短剧┃刺桐",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://122.228.84.103:6822/api.php/app/"
+    },
+    {
+      "key": "勇往短剧二",
+      "name": "八佰短剧┃刺桐",
+      "type": 1,
+      "api": "https://cj.lzcaiji.com/api.php/provide/vod/from/liangzi/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "短剧"
+      ],
+      "jar": " http://www.tvboxx.top/tv/lib/ou.jar;md5;550a6ae1d050d7f8b1bf3b715d1f5277"
+    },
+    {
+      "key": "csp_Nmys",
+      "name": "农民资源|刺桐",
+      "type": 3,
+      "api": "csp_Nmys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "http://tv.cttv.vip/uploads/itvbox/json/f-nmys.json",
+      "jar": "http://tv.cttv.vip/uploads/itvbox/jar/fan.txt"
+    },
+//**********普通接口**********
+	{"key":"红牛资源","name":"红牛资源|刺桐","type":1,"api":"https://www.hongniuzy2.com/api.php/provide/vod/","searchable":1,"changeable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","港澳剧","日剧","欧美剧","台湾剧","泰剧","韩剧","纪录片","动漫电影"]},
+	{"key":"光速资源","name":"光速资源|刺桐","type":1,"api":"http://api.guangsuapi.com/api.php/provide/vod/","searchable":1,"changeable":1,"categories":["动作片","喜剧片","爱情片","科幻片","剧情片","恐怖片","战争片","动漫电影","大陆剧","欧美剧","港澳剧","韩剧","日剧","台湾剧","泰剧","综艺","动漫","记录片"]},
+	{"key":"极速资源","name":"极速资源|刺桐","type":1,"api":"https://jszyapi.com/api.php/provide/vod/","searchable":1,"changeable":1,"categories":["日剧","马泰剧","内地剧","欧美剧","香港剧","韩剧","台湾剧","恐怖片","动画片","剧情片","战争片","动作片","记录片","爱情片","喜剧片","科幻片","灾难片","悬疑片","犯罪片","中国动漫","日本动漫","欧美动漫"]},
+	{"key":"快车资源","name":"快车资源|刺桐","type":1,"api":"https://caiji.kczyapi.com/api.php/provide/vod/","searchable":1,"changeable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","战争片","剧情片","动画片","纪录片","国产剧","香港剧","台湾剧","欧美剧","韩国剧","日本剧","泰国剧","海外剧","国产动漫","日本动漫","欧美动漫","大陆综艺","日韩综艺","港台综艺","欧美综艺"]},
+
+
+//--------------------------------------------
+
+    {
+    "key":"Freeok",
+    "name":"Freeok|刺桐",
+    "type":3,
+    "api":"csp_XBPQ",
+    "playerType":"1",
+    "searchable":1,
+    "quickSearch":1,
+    "filterable":1,
+    "ext":{"分类url":"https://www.freeok.vip/vod-show/{cateId}-{area}-------{catePg}---{year}.html",
+    "分类":"FREE电影&FREE剧集&FREE动漫&FREE综艺&FREE短剧&FREE少儿",
+    "分类值":"1&2&3&4&12&5",
+    "播放请求头":"User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
+    "副标题":"<div class=\"module-item-note\">&&</div>",
+    "嗅探词":"m3u8#.m3u8#.mp4#freeok.mp4#/obj/",
+    "线路数组":"data-dropdown-value=&&</div>[不包含:夸克]",
+    "线路标题":"<span>&&</small>",
+    "导演":"导演：&&</div>",
+    "主演":"主演：&&</div>",
+    "简介":"<p>&&</p>"}
+    },
+           {
+      "key": "橘子",
+      "name": "橘子资源|刺桐",
+      "type": 3,
+      "api": "csp_AppMao",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "FbjDcUxPqpfNr0QF4QvE6sExbcJUCYdIVisPtbeywENfScyc6nTW0F+D7rX5HCm9c3SL03FsmGsmXS04XZMlbxEVW4/ZgwONbnobxj8KxeRpXqDxCWghfAf9JSR025yi92eOKqE9HokX9QQnl1WsU21CR4+dlEMDEsADd1xFGiiGtsh0vqJFAf41Z7sYL00hBBNM3xJsYyXCuX4BrzNYpZRwmcnwnXIHe2MtwbsJf0IAs6yM+y/ub+niyxOc2YuPbc/VUS4DGPqzelIi6plLWFvZ8+j2xcvAgopZxZFhBkIYCIIC5Uec/JW8RgW9WV1SKntGcmcd5yjIpagsmpXymH3a+FKzHKMB3LvXmR6onijWkP0VpivFgVVfjWrik4Yr0ZjZxKFA0uPQvy9l9EjPMNrQIj0sZjnpv7JmoMO+HfQ+lqKhJrQFq4MooyyGv6yhNv12IOHay3A="
+    },
+    {
+      "key": "南坊",
+      "name": "南坊资源|刺桐",
+      "type": 3,
+      "api": "csp_AppMao",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "FbjCcU1KqpC5pkRX4Q3D+NciPclIFs4EHzRV89m3pENRS6PivxPrlXvH/4efUSWwUCWwwk8srkIDSXN9RIJkSCZPJqnRikLRakBH0XBB6uNlX6XgMjhUKBTbBXopnsWdvXX6OowIBLQ78wghs3yRbgJxOYvrglBVIeI4cTcDGxixtMJ+yL0zE9g1d+N2RH4JERZh3CoYXSO1hH420ARbjt08lerroREmfGoT8JEGfTFW3MrK3hWueIyRsyOllsiwNM6dXSwTArm5em8Lv8ppXgro"
+    },
+        {
+            "key": "暴风",
+            "name": "暴风资源|刺桐",
+            "type": 1,
+            "api": "https://bfzyapi.com/api.php/provide/vod",
+            "searchable": 1,
+            "changeable": 1
+        },
+  
+    {
+      "key": "量子云播",
+      "name": "量子资源|刺桐",
+      "type": 1,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/?ac=list",
+      "playUrl": "https://lziplayer.com/?url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+      "动作片",
+      "喜剧片",
+      "爱情片",
+      "科幻片",
+      "恐怖片",
+      "剧情片",
+      "战争片",
+      "国产剧",
+      "香港剧",
+      "韩国剧",
+      "欧美剧",
+      "记录片",
+      "台湾剧",
+      "日本剧",
+      "海外剧",
+      "泰国剧",
+      "大陆综艺",
+      "港台综艺",
+      "日韩综艺",
+      "欧美综艺",
+      "国产动漫",
+      "日韩动漫",
+      "欧美动漫",
+      "港台动漫",
+      "海外动漫",
+      "电影解说"
+    ]},
+
+    {
+      "key": "1080zyku",
+      "name": "1080资源|刺桐",
+      "type": 1,
+      "api": "https://api.1080zyku.com/inc/apijson.php?ac=list",
+      "playUrl": "https://vip.zykbf.com/?url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+      "动作片",
+      "喜剧片",
+      "爱情片",
+      "科幻片",
+      "恐怖片",
+      "剧情片",
+      "战争片",
+      "国产剧",
+      "台湾剧",
+      "韩国剧",
+      "欧美剧",
+      "香港剧",
+      "泰国剧",
+      "日本剧",
+      "海外剧",
+      "记录片",
+      "大陆综艺",
+      "港台综艺",
+      "日韩综艺",
+      "欧美综艺",
+      "国产动漫",
+      "日韩动漫",
+      "欧美动漫",
+      "港台动漫",
+      "电影解说"
+    ]},
+
+    {
+      "key": "天空",
+      "name": "天空资源|刺桐",
+      "type": 1,
+      "api": "https://api.tiankongapi.com/api.php/provide/vod/",
+      "playUrl": "https://yun.ckmov.com/?url=",
+      "playUrl": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "记录片",
+        "直播",
+        "短片",
+        "国产剧",
+        "综艺",
+        "影片库",
+        "动漫"
+    ]},
+
+    {
+      "key": "suoni",
+      "name": "索尼资源|刺桐",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/",
+      "playUrl": "https://yun.ckmov.com/?url=",
+      "playUrl": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+            "动作片",
+            "喜剧片",
+            "爱情片",
+            "科幻片",
+            "恐怖片",
+            "剧情片",
+            "战争片",
+            "国产剧",
+            "欧美剧",
+            "韩剧",
+            "日剧",
+            "港剧",
+            "台剧",
+            "海外剧",
+            "大陆综艺",
+            "国产动漫"
+    ]},
+
+    {
+      "key": "csp_appys_kuloo",
+      "name": "酷窝资源|刺桐",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://www.kuloo.xyz/ruifenglb_api.php/v1.vod"
+    },   
+    {
+      "key": "csp_XYQHiker_348电影网",
+      "name": "348资源|刺桐",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://tv.cttv.vip/uploads/itvbox/json/348电影网.json",
+      "jar": "http://tv.cttv.vip/uploads/itvbox/jar/custom_spider.jar;md5;4f4a7b576a92810cf89eb844520ae641"
+    },
+    
+    {
+      "key": "csp_XYQHiker_锐行加速影院",
+      "name": "锐行资源|刺桐",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://tv.cttv.vip/uploads/itvbox/json/锐行加速影院.json",
+      "jar": "http://tv.cttv.vip/uploads/itvbox/jar/custom_spider.jar;md5;4f4a7b576a92810cf89eb844520ae641"
+    },
+ 
+     {
+      "key": "csp_XYQHiker_干饭影视",
+      "name": "干饭资源|刺桐",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://tv.cttv.vip/uploads/itvbox/json/干饭影视.json",
+      "jar": "http://tv.cttv.vip/uploads/itvbox/jar/pytv23-6-13.jar"
+    },
+    
+    {
+      "key": "csp_XYQHiker_看一看影视",
+      "name": "看一看资源|刺桐",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://tv.cttv.vip/uploads/itvbox/json/看一看影视.json",
+      "jar": "http://tv.cttv.vip/uploads/itvbox/jar/pytv23-6-13.jar"
+    },
+
+//**********备用接口**********
+    {
+      "key": "csp_Yj1211",
+      "name": "JustLive资源|刺桐",
+      "type": 3,
+      "api": "csp_Yj1211",
+      "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "学外语",
+      "name": "学外语|刺桐",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://tv.cttv.vip/uploads/itvbox/json/waiyu.json"
+    },
+    {
+      "key": "哔哩哔哩",
+      "name": "哔哩大全|刺桐",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://tv.cttv.vip/uploads/itvbox/json/Bili.json"
+    },
+    {
+      "key": "相声小品",
+      "name": "相声小品|刺桐",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://tv.cttv.vip/uploads/itvbox/json/Blixs.json"
+    },
+    {
+      "key": "戏 曲",
+      "name": "国粹戏曲|刺桐",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://tv.cttv.vip/uploads/itvbox/json/Blixq.json"
+    },
+    {
+      "key": "csp_XBPQ_短视频",
+      "name": "短视频|刺桐",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "http://tv.cttv.vip/uploads/itvbox/json/duanshipin.json"
+    },
+    
+    {
+		    "key": "自营短剧",
+		    "name": "全平台短剧|刺桐",
+		    "type": 3,
+		    "api": "csp_AppYsV2",
+		    "searchable": 1,
+		    "quickSearch": 1,
+		    "filterable": 1,
+		    "ext": "http://122.228.84.103:6822/api.php/app/"
+		},
+    {
+      "key": "兔小贝",
+      "name": "兔小贝儿歌|刺桐",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://tv.cttv.vip/uploads/itvbox/json/1076_204858_%E5%85%94%E5%B0%8F%E8%B4%9D2.json"
+    },
+    {
+      "key":"兔小贝",
+      "name":"儿童启蒙|刺桐",
+      "type":3,
+      "api":"https://agit.ai/abkier/TVBox_warehouse/raw/branch/main/%E6%95%99%E8%82%B2/js/drpy.min.js",
+      "searchable":0,
+      "quickSearch":0,
+      "filterable":0,
+      "ext":"https://agit.ai/abkier/TVBox_warehouse/raw/branch/main/%E6%95%99%E8%82%B2/js/兔小贝.js",
+      "jar":"https://ghp.ci/raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/spider.jar;md5;71f99cf2129197c0f31c85ab77934467"
+    },
+        {
+            "key": "课堂教育",
+            "name": "课堂教育|刺桐",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "http://tv.cttv.vip/uploads/itvbox/json/f-xx1.json"
+        },
+        {
+            "key": "少儿教育",
+            "name": "少儿教育|刺桐",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "http://tv.cttv.vip/uploads/itvbox/json/f-xx2.json"
+        },
+        {
+            "key": "小学课堂",
+            "name": "小学课堂|刺桐",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "http://tv.cttv.vip/uploads/itvbox/json/f-xx3.json"
+        },
+        {
+            "key": "初中课堂",
+            "name": "初中课堂|刺桐",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "http://tv.cttv.vip/uploads/itvbox/json/f-xx4.json"
+        },
+        {
+            "key": "高中教育",
+            "name": "高中课堂|刺桐",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "http://tv.cttv.vip/uploads/itvbox/json/f-xx5.json"
+        }
+  ],
+
+
+  "parses": [
+    {
+      "name": "聚合",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "推荐",
+      "type": 1,
+      "url": "https://api.tyun77.cn/api.php/provide/parseDicturl?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "imgo",
+          "rx",
+          "ltnb",
+          "bilibili",
+          "1905",
+          "xigua"
+        ]
+      }
+    },
+    {
+      "name": "搜狐",
+      "type": 1,
+      "url": "http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url=",
+      "ext": {
+        "flag": [
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.1.0"
+        }
+      }
+    },
+    
+    {
+      "name": "线路2",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+        }
+      }
+    },
+    {
+      "name": "线路3",
+      "type": 0,
+      "url": "https://jx.bozrc.com:4433/player/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "leshi",
+          "LS",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ],
+        "header": {
+          "User-Agent": ""
+        }
+      }
+    },
+    {
+      "name": "线路4",
+      "type": 0,
+      "url": "https://jx.quankan.app/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+        }
+      }
+    },
+    {
+      "name": "线路5",
+      "type": 0,
+      "url": "https://jx.yparse.com/index.php?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+        }
+      }
+    },
+    {
+      "name": "线路6",
+      "type": 0,
+      "url": "https://jx.jsonplayer.com/player/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+        }
+      }
+    },
+    {
+      "name": "线路7",
+      "type": 0,
+      "url": "https://www.kkvip2022.com/vip/jiexi1/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+        }
+      }
+    },
+    {
+      "name": "线路8",
+      "type": 0,
+      "url": "https://jx.xyflv.cc/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36",
+          "referer": "https://www.xyflv.cc/"
+        }
+      }
+    },
+    {
+      "name": "线路9",
+      "type": 0,
+      "url": "https://jx.aidouer.net/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36",
+          "referer": "https://jiejie.uk/"
+        }
+      }
+    },
+    {
+      "name": "线路10",
+      "type": 0,
+      "url": "https://jx.zhanlangbu.com/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ],
+        "ext": {
+          "header": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+          }
+        }
+      }
+    },
+    {
+      "name": "线路11",
+      "type": 0,
+      "url": "https://www.8090g.cn/?url="
+    },
+    {
+      "name": "线路12",
+      "type": 0,
+      "url": "https://jx.yangtu.top/?url="
+    },
+    {
+      "name": "线路13",
+      "type": 0,
+      "url": "https://jx.m3u8.tv/jiexi/?url="
+    },
+    {
+      "name": "线路14",
+      "type": 0,
+      "url": "https://www.ckplayer.vip/jiexi/?url="
+    }
+  ],
+  "rules": [
+
+    {
+      "host": "www.iesdouyin.com",
+      "rule": [
+        "playwm/?video_id="
+      ]
+    },
+    {
+      "host": "v.douyin.com",
+      "rule": [
+        "playwm/?video_id="
+      ]
+    }
+  ],
+  "flags": [
+    "youku",
+    "优酷",
+    "优 酷",
+    "优酷视频",
+    "qq",
+    "腾讯",
+    "腾 讯",
+    "腾讯视频",
+    "iqiyi",
+    "qiyi",
+    "奇艺",
+    "爱奇艺",
+    "爱 奇 艺",
+    "m1905",
+    "xigua",
+    "letv",
+    "leshi",
+    "乐视",
+    "乐 视",
+    "sohu",
+    "搜狐",
+    "搜 狐",
+    "搜狐视频",
+    "tudou",
+    "pptv",
+    "mgtv",
+    "芒果",
+    "imgo",
+    "芒果TV",
+    "芒 果 T V",
+    "bilibili",
+    "哔 哩",
+    "哔 哩 哔 哩"
+  ],
+  "ijk": [
+    {
+      "group": "软解码",
+      "options": [
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "48"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "max-buffer-size",
+          "value": "5242880"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "dns_cache_timeout",
+          "value": "600000000"
+        }
+      ]
+    },
+    {
+      "group": "硬解码",
+      "options": [
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "48"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "max-buffer-size",
+          "value": "5242880"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "dns_cache_timeout",
+          "value": "600000000"
+        }
+      ]
+    }
+  ]
+}
